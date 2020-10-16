@@ -1,0 +1,171 @@
+
+@media (min-width: 900px) {
+    .title {
+        grid-area: title;
+        background-color: rgb(41,205,192);
+    }
+
+    .bluearea {
+        grid-area: bluearea;
+        background-color: black;
+    }
+
+    .redarea {
+        grid-area: redarea;
+        background-color: black;
+    }
+
+    .greenarea {
+        grid-area: greenarea;
+        background-color: black;
+    }
+
+    .maincontainer {
+        display: grid;
+        grid-template-areas: 
+            'title title title'
+            'bluearea redarea greenarea';
+        grid-template-rows: 400px 400px;
+        grid-template-columns: 360px 360px 360px;
+    }
+
+    #bluerectangle{
+        width:170px;
+        height:30px;
+        background:rgb(50,168,221);
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #redrectangle{
+        width:170px;
+        height:30px;
+        background:rgb(244,103,49);
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #greenrectangle{
+        width:170px;
+        height:30px;
+        background:rgb(41,205,192);
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    h1 {
+        color: white;
+        font-family: 'Piazzolla', serif;
+        margin-top: 20px;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    h2 {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 14;
+    }
+
+    h3 {
+        color: white;
+        font-family: 'Piazzolla', serif;
+        margin-top: 140px;
+        font-size: 60px;
+        text-align: center;
+    }
+}   
+
+@media (max-width: 899px) {
+
+    .title {
+        grid-area: title;
+        background-color: rgb(50,168,221);
+    }
+
+    .bluearea {
+        grid-area: bluearea;
+        background-color: white;
+    }
+
+    .redarea {
+        grid-area: redarea;
+        background-color: white;
+    }
+
+    .greenarea {
+        grid-area: greenarea;
+        background-color: white;
+    }
+
+    .maincontainer {
+        display: grid;
+        grid-template-areas: 
+            'title'
+            'bluearea'
+            'redarea'
+            'greenarea';
+        grid-template-rows: 400px 400px 400px 400px;
+        grid-template-columns: auto;
+    }
+
+    #bluerectangle{
+        width:170px;
+        height:30px;
+        background:rgb(50,168,221);
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #redrectangle{
+        width:170px;
+        height:30px;
+        background:rgb(244,103,49);
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #greenrectangle{
+        width:170px;
+        height:30px;
+        background:rgb(41,205,192);
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    h1 {
+        color: black;
+        font-family: 'Piazzolla', serif;
+        margin-top: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    h2 {
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 14;
+    }
+
+    h3 {
+        color: white;
+        font-family: 'Piazzolla', serif;
+        margin-top: 75px;
+        font-size: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
+}
+
+/*
+My fonts
+font-family: 'Piazzolla', serif;
+font-family: 'Roboto', sans-serif;
+*/
